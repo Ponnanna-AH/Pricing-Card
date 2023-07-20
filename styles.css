@@ -1,0 +1,128 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cbf2f2;
+}
+
+span {
+    color: white;
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+.container {
+    background-color: black;
+    border-radius: 10px;
+    bottom:0;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    left:0;
+    margin: auto;
+    position: fixed;
+    right:0;
+    top:0;
+    width: 600px;
+}
+
+.community {
+    background-color: #e9f2f2;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-sizing: border-box;
+    height: 45%;
+    padding: 45px;
+    width: 100%;
+}
+
+.perks {
+    background-color: #1dc4ae;
+    border-bottom-right-radius: 10px;
+    box-sizing: border-box;
+    float: right;
+    height: 55%;
+    padding: 45px;
+    width: 50%;
+}
+
+.subscription {
+    background-color: #1eb09c;
+    border-bottom-left-radius: 10px;
+    box-sizing: border-box;
+    float: left;
+    height: 55%;
+    padding: 45px;
+    width: 50%;
+}
+
+#community-para {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    margin-bottom: 5px;
+}
+
+#community-heading {
+    color: #0bb3a2;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+#community-sub-heading {
+    color: #bfcf48;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#perks-heading {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#perks-list {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    list-style-type: none;
+    line-height: 1.5em;
+}
+
+#signup-button {
+    background-color: #abe84f;
+    border: 3px solid #abe84f;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+}
+
+#signup-button:hover {
+    background-color: white;
+    color: #abe84f;
+    border: 3px solid #abe84f;
+}
+
+#subscription-cost {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#subscription-heading {
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+#subscription-para {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    margin-bottom: 30px;
+}
